@@ -1,8 +1,8 @@
 const moment = require('moment-timezone');
 
 function showWelcomeBanner() {
-    const timeZone = 'America/New_York'; // Change to your desired time zone
-    const location = 'New York, USA'; // Change to your desired location
+    const timeZone = moment.tz.guess(); // Change to your desired time zone
+    const location = 'Kottawa, Sri Lanka'; // Change to your desired location
     const dateTime = moment().tz(timeZone).format('MMMM Do YYYY, h:mm:ss a');
 
     console.log('====================================');
