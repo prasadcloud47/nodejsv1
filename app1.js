@@ -5,7 +5,7 @@ const readline = require('readline').createInterface({
 
 console.log("Welcome to the program!");
 
-readline.question('What is your name Sir ? ', name => {
+readline.question('What is your name Sir r? ', name => {
     console.log(`Good morning, ${name}!`);
     readline.close();
 });
